@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h3> jeu de tic-tac-toe</h3>
+    <form>
+        <fieldset>
+            <select class="choix">
+                <option>facile</option>
+                <option>moyen</option>
+                <option>impossible</option>
+                <option>jouer contre un ami</option>
+            </select>
+            <div class="entete">
+                <div class="button1"><h2 class="button1">X: <span class="points" id="button2">-</span></h2></div>
+                <div class="button"><h2 class="button3">0 : <span class="points" id="button4">-</span></h2></div>
+            </div>
+            <h3 class="descision"></h3>
+            <div class="selection">
+                <table>
+                    <tr>
+                        <th class="choice_button" id="borderss"></th>
+                        <th class="choice_button" id="border2"></th>
+                        <th class="choice_button" id="border1"></th>
+                    </tr>
+                    <tr>
+                        <th class="choice_button" id="borders"></th>
+                        <th class="choice_button"></th>
+                        <th class="choice_button" id="border"></th>
+                    </tr>
+                    <tr>
+                        <th class="choice_button " id="borderss"></th>
+                        <th class="choice_button" id="border2"></th>
+                        <th class="choice_button" id="border1"></th>
+                    </tr>
+                </table>
+            </div>
+            <div class="but">
+                <button class="rejouer">Rejouer</button>
+            </div>
+        </fieldset>
+    </form>
+    <script src="/js/script.js"></script>
+</body>
+</html>

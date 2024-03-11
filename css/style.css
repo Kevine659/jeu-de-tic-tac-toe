@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(28, 30, 39);
+}
+
+fieldset{
+    width: 45em;
+    height: 33em;
+    margin: auto;
+    margin-top: 2em;
+    border-radius: 0.7em;
+    
+}
+
+.choix {
+    margin-top: 1em;
+    border: none;
+    color: rgb(206, 195, 195);
+    background-color:rgb(28, 30, 39);
+    font-weight: bold
+}
+
+.entete {
+    margin-top: 1em;
+    text-align: center;
+    color: white;
+}
+
+.button1 {
+  width: 1em;   
+  font-size: 1em; 
+  height: 2em;
+  
+}
+
+#button2 {
+    position: relative;
+    left: 5em;
+    top: -1.2em;
+}
+
+.button3 {
+    margin-right: -18em;
+    margin-top: -2em;
+    font-size: 1.6em;
+}
+
+#button4 {
+    position: relative;
+    left: 3em;
+}
+
+.selection {
+    background-color: rgb(7, 131, 131);
+    height: 23em;
+    width: 45em;
+    position: relative;
+    top: 2em;
+}
+
+th, td {
+    border: solid 6px rgb(33, 109, 119);
+}
+
+#border {
+    border-right: none;
+}
+
+#borders {
+    border-left: none;
+}
+#borderss {
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+#border1 {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+#border2 {
+    border-top: none;
+    border-bottom: none;
+}
+
+table {
+    border-collapse: collapse;
+    height: 16em;
+    width: 16em;
+    position: relative;
+    left: 13em;
+    cursor: pointer; 
+    position: absolute;
+    top: 2em;
+    text-align: center;
+
+}
+.descision {
+    margin-left: 18em;
+    color: aliceblue;
+    margin-top: -2em;
+}
+
+.rejouer {
+    margin-top: 0.8em;
+    margin-left: 25em;
+    border: none;
+    background-color: rgb(28, 30, 39);
+    color: rgb(7, 131, 131); 
+    font-weight: 700;
+    position: relative;
+    top: 3em;
+
+}
